@@ -38,9 +38,9 @@ Android Ver :- Minimum Android Version required to run the App
 Data cleaning is one of the most essential subtask of any data science project. Although it can be a very tedious process, it's worth should never be undermined.
 
 By looking at a random sample of the dataset rows (from the above task), we observe that some entries in the columns like Installs,Price and Size have a few special characters (+ , $ ,M , k) .This prevents the columns from being purely numeric, making it difficult to use them in subsequent future mathematical calculations. Ideally, as their names suggest, we would want these columns to contain only digits from [0-9].
-## explorartory data analysis
+## Explorartory data analysis
 
-**observation 1**
+**Observation 1**<br>
 Exploring app categories:-With more than 1 billion active users in 190 countries around the world, Google Play continues to be an important distribution platform to build a global audience. For businesses to get their apps in front of users, it’s important to make them more quickly and easily discoverable on Google Play. To improve the overall search experience, Google has introduced the concept of grouping apps into categories. Which category has the highest share of (active) apps in the market? Is any specific category dominating the market? Which categories have the fewest number of apps? We will see that there are 33 unique app categories present in our dataset. Family and Game apps have the highest market prevalence. Interestingly, Tools, Business and Medical apps are also at the top.<br>
 **Observation 2**<br>
 **Installs acording to generes**<br>
